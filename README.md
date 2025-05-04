@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema de Rastreo de Mascotas
 
 ## üîç Descripci√≥n
@@ -22,3 +23,31 @@ Este sistema incorpora estrategias para garantizar **protecci√≥n contra ataques*
 - **Auditor√≠a automatizada de dependencias** con `npm audit` y `mvn dependency-check`.
 - **Respaldo seguro de base de datos** con cifrado AES-256.
 
+=======
+# Sistema de Rastreo de Mascotas 
+Este proyecto ofrece una soluci¢n avanzada para el seguimiento y gesti¢n de mascotas. Su arquitectura modular garantiza seguridad, eficiencia y escalabilidad. 
+ 
+## Caracter°sticas Principales 
+- **Frontend:** Next.js y React para una interfaz din†mica y moderna. 
+- **Backend:** PostgreSQL con API segura y optimizada. 
+- **Automatizaci¢n:** Gradle y Maven para una gesti¢n eficiente. 
+- **Seguridad:** TÇcnicas de programaci¢n defensiva y an†lisis de vulnerabilidades. 
+ 
+## Estructura del Proyecto 
+El sistema se organiza en m¢dulos independientes para facilitar la colaboraci¢n y mantenimiento: 
+- `frontend/` - Contiene la interfaz gr†fica y l¢gica de presentaci¢n. 
+- `backend/` - Se encarga de la gesti¢n de datos y l¢gica de negocio. 
+- `scripts/` - Automatiza respaldos, auditor°as y despliegues. 
+- `docs/` - Documentaci¢n de instalaci¢n y configuraci¢n. 
+ 
+## Seguridad y Programaci¢n Defensiva 
+- Protecci¢n contra ataques XSS, SQL Injection y amenazas comunes. 
+- Auditor°a automatizada de dependencias con `npm audit` y `mvn dependency-check`. 
+- Respaldo seguro de base de datos con cifrado AES-256. 
+ 
+## Instalaci¢n y Uso 
+1. Clona el repositorio con: `git clone https://github.com/PrivateerDev/sistema-rastreo-mascotas.git` 
+2. Configura las dependencias con `npm install` y `mvn install`. 
+3. Inicia la base de datos con `scripts/init-db.cmd`. 
+4. Ejecuta `scripts/start-dev.cmd` para iniciar el entorno. 
+>>>>>>> bba739f (Estructura inicial y documentaci√≥n del Sistema de Rastreo de Mascotas)

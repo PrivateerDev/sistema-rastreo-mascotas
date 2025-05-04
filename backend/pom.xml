@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"> 
+  <modelVersion>4.0.0</modelVersion> 
+  <groupId>com.rastreomascotas</groupId> 
+  <artifactId>sistema-rastreo</artifactId> 
+  <version>1.0-SNAPSHOT</version> 
+</project> 
+<dependencies> 
+  <!-- Pool de conexiones HikariCP --> 
+  <dependency> 
+    <groupId>com.zaxxer</groupId> 
+    <artifactId>HikariCP</artifactId> 
+    <version>5.0.1</version> 
+  </dependency> 
+  <!-- PostgreSQL Driver --> 
+  <dependency> 
+    <groupId>org.postgresql</groupId> 
+    <artifactId>postgresql</artifactId> 
+    <version>42.5.1</version> 
+  </dependency> 
+  <!-- OWASP Security Library --> 
+  <dependency> 
+    <groupId>org.owasp.encoder</groupId> 
+    <artifactId>encoder</artifactId> 
+    <version>1.2.3</version> 
+  </dependency> 
+  <!-- Java JWT para tokens seguros --> 
+  <dependency> 
+    <groupId>com.auth0</groupId> 
+    <artifactId>java-jwt</artifactId> 
+    <version>4.0.0</version> 
+  </dependency> 
+  <!-- Validaci¢n --> 
+  <dependency> 
+    <groupId>org.hibernate.validator</groupId> 
+    <artifactId>hibernate-validator</artifactId> 
+    <version>7.0.5.Final</version> 
+  </dependency> 
+  <!-- Testing --> 
+  <dependency> 
+    <groupId>junit</groupId> 
+    <artifactId>junit</artifactId> 
+    <version>4.13.2</version> 
+    <scope>test</scope> 
+  </dependency> 
+</dependencies> 

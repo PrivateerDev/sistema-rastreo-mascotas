@@ -1,0 +1,6 @@
+@echo off 
+echo Iniciando PostgreSQL... 
+pg_ctl -D "C:\Program Files\PostgreSQL\14\data" start 
+echo Creando base de datos... 
+psql -U postgres -c "CREATE DATABASE rastreo_mascotas;" 
+psql -U postgres -d rastreo_mascotas -c "CREATE SCHEMA app;" 
