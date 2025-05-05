@@ -1,1 +1,1 @@
-// Configuraci¢n de seguridad 
+// Configuraciï¿½n de seguridad
